@@ -1,2 +1,30 @@
 //STYLE DE NOTRE HEADER
 
+header{
+  display:flex;
+  justify-content:center;
+
+  img{
+    height: 40px;
+    width: 160px;
+  }
+
+  ul{
+    display:flex;
+    justify-content:space-between;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  li{
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: $vw-medium) {
+  ul{
+
+
+      order: 2;
+  }
+}

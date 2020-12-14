@@ -1,4 +1,4 @@
-.carrousel{
+/*.carrousel{
   display: flex;
   justify-content: space-between;
 
@@ -6,7 +6,21 @@
     width: calc(33.3333% - 20px);
 
   }
+}*/
 
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
 }
 
 
